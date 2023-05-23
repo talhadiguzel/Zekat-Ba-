@@ -1,0 +1,14 @@
+body{
+    background-color: #252525;
+    color: aliceblue;
+}
+
+img{
+    margin-right: 80px;
+}
+
+.box{
+    margin: auto;
+    margin-top: 130px;
+    text-align: center;
+}

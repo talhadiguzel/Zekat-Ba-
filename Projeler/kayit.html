@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Kayıt Ol</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="kayit.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="ekleme_sayfasi.php" method="post">
+                Adınız: <input type="text" id="uye_ad" name="ad" value="Lütfen Boş Bırakmayınız!" onclick="document.getElementById('uye_ad').value=''">
+                Soyadınız: <input type="text" id="uye_soyad" name="soyad" value="Lütfen Boş Bırakmayınız!" onclick="document.getElementById('uye_soyad').value=''"><br><br>
+                Telefon: <input type="tel" id="uye_tel" name="telefon" value="Lütfen Boş Bırakmayınız!" onclick="document.getElementById('uye_tel').value=''">
+                E-posta: <input type="email" id="uye_email" name="email" value="Lütfen Boş Bırakmayınız!" onclick="document.getElementById('uye_email').value=''"><br><br>
+                Şifre Oluşturunuz: <input type="password" id="uye_sifre" name="sifre" value="11111111" onclick="document.getElementById('uye_sifre').value=''">
+                <p>Lütfen şifrenizi minimum 8 karakterli olacak şekilde belirleyiniz!!</p>
+                <input type="submit" name="Kayıt" value="Kayıt Ol">
+            </form>
+            <a href="iframe.html"><input type="button" value="Giriş Yap"></a>
+        </div>
+
+    </body>
+</html>

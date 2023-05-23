@@ -1,0 +1,19 @@
+body{
+    background-color: #252525;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+p{
+    color: red;
+}
+
+input{
+    border-radius: 7%;
+}
