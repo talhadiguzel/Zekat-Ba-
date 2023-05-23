@@ -1,2 +1,2 @@
-# Zekat-Ba-
+# Zekat-Bağış
 Zekat veya bağış sitesi
